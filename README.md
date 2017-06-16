@@ -28,7 +28,7 @@ export default function MyComponent({children}: {children?: ReactChildren}) =>
 
 ### `AnyReactElement`
 
-Useful any react element or `void`. Useful when a value should be an optional single element.
+Matches a single react element. It's an alias for `?Element<any>`.
 
 Example:
 
